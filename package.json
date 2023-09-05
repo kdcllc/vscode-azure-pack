@@ -1,0 +1,50 @@
+{
+    "name": "vscode-azure-pack",
+    "displayName": "Azure Cloud Dev Pack",
+    "description": "Streamline Azure Development with our Extension Pack.",
+    "version": "1.0.0",
+    "license": "SEE LICENSE IN LICENSE",
+    "galleryBanner": {
+        "color": "#0072c6",
+        "theme": "dark"
+    },
+    "icon": "kdcllc-icon.png",
+    "repository": {
+        "url": "https://github.com/kdcllc/vscode-azure-pack"
+    },
+    "homepage": "https://github.com/kdcllc/vscode-azure-pack",
+    "bugs": {
+        "url": "https://github.com/kdcllc/vscode-azure-pack/issues"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Azure",
+        "Extension Packs"
+    ],
+    "keywords": [
+        "azure",
+        "kubernetes",
+        "docker",
+        "microservices",
+        "functions",
+        "webapp"
+    ],
+    "publisher": "kdcllc",
+    "extensionPack": [
+        "ms-vscode.vscode-node-azure-pack",
+        "ms-vscode.azure-account",
+        "ms-azure-devops.azure-pipelines",
+        "ms-vscode.azurecli",
+        "Azurite.azurite",
+        "hashicorp.terraform",
+        "ms-azuretools.vscode-logicapps",
+        "ms-azuretools.vscode-azurelogicapps",
+        "msazurermtools.azurerm-vscode-tools",
+        "ms-azuretools.vscode-bicep"
+    ],
+    "devDependencies": {
+        "@vscode/vsce": "^2.21.0"
+    }
+}
